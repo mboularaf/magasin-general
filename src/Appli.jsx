@@ -1,4 +1,4 @@
-import './Appli.css';
+import './Appli.scss';
 import Entete from './Entete';
 import ListeProduits from './ListeProduits';
 import Pied2page from './Pied2page';
@@ -9,7 +9,7 @@ function Appli() {
       <ListeProduits/>
       <Pied2page/>
     </div>
-    
+  
   );
 }
 

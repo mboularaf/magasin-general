@@ -1,0 +1,18 @@
+[
+    {
+        "id": "prd0001",
+        "nom": "Pantalon",
+        "prix": 25.00
+    },
+    {
+        "id": "prd0002",
+        "nom": "Boxer",
+        "prix": 10.00
+    },
+    {
+        "id": "prd0003",
+        "nom": "Chaussettes",
+        "prix": 9.00
+    }
+]
+    
