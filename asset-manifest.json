@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mboularaf/magasin-general/static/css/main.3adcb231.css",
-    "main.js": "/mboularaf/magasin-general/static/js/main.2a2b2404.js",
-    "index.html": "/mboularaf/magasin-general/index.html",
-    "main.3adcb231.css.map": "/mboularaf/magasin-general/static/css/main.3adcb231.css.map",
-    "main.2a2b2404.js.map": "/mboularaf/magasin-general/static/js/main.2a2b2404.js.map"
+    "main.css": "/magasin-general/static/css/main.3adcb231.css",
+    "main.js": "/magasin-general/static/js/main.2a2b2404.js",
+    "index.html": "/magasin-general/index.html",
+    "main.3adcb231.css.map": "/magasin-general/static/css/main.3adcb231.css.map",
+    "main.2a2b2404.js.map": "/magasin-general/static/js/main.2a2b2404.js.map"
   },
   "entrypoints": [
     "static/css/main.3adcb231.css",
