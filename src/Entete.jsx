@@ -1,8 +1,22 @@
 import './Entete.scss';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Badge from '@mui/material/Badge';
+import PanierSommaire from './PanierSommaire';
+
+
 function Entete({panier}) {
-    console.log("Le panier : ", panier)
+    /*console.log("Le panier (Entete) : ", panier);
+    let tabValPanier = Object.values(panier);
+    console.log("Le tableau des valeurs dansle panier : ", tabValPanier);*/
+    
+    //calcul du nombre articles dans le panier
+    // Avec une boucle (instrutions)
+    /*
+    let nbArticles= 0;
+    for (let i= 0; i < tabValPanier.length; i++){
+        nbArticles += tabValPanier[i].qte;
+    }
+    */
+   //avec la méthode reduce() des tableaux(une seule expression)
+    //const nbArticles = tabValPanier.reduce((valInitiale, eltSuivant) => valInitiale+eltSuivant.qte, 0);
     return(
         <header className="Entete">
         <h1>Magasin général</h1>
@@ -11,9 +25,8 @@ function Entete({panier}) {
             <span>À propos</span>
             <span>
                 
-                <Badge badgeContent = {Object.values(panier).length} color ="primary">
-                <ShoppingCartIcon/> 
-                 </Badge>
+            <PanierSommaire panier={panier}/>
+                
              </span>
         </nav>
         </header>
